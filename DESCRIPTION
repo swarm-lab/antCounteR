@@ -1,0 +1,31 @@
+Package: antCounteR
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person("Simon", "Garnier", email = "garnier@njit.edu", role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0002-3886-3974"))
+  )
+Maintainer: Simon Garnier <garnier@njit.edu>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    shiny (>= 1.1.0), 
+    shinyBS (>= 0.61),
+    shinyFiles (>= 0.7.1), 
+    shinyjs (>= 1.0),
+    ROpenCVLite (>= 0.1.34.3),
+    Rvision (>= 0.3.1),
+Remotes: 
+    github::swarm-lab/ROpenCVLite,
+    github::swarm-lab/Rvision
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+URL: https://swarm-lab.github.io/antCounteR/, https://github.com/swarm-lab/antCounteR
+BugReports: https://github.com/swarm-lab/antCounteR/issues
